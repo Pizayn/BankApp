@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Semih\\Desktop\\Projeler\\banka-web-uygulamasi\\DenemeApi\\DenemeApi.Entities\\DenemeApi.Entities.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Semih\\Desktop\\Projeler\\banka-web-uygulamasi\\DenemeApi\\DenemeApi.Entities\\DenemeApi.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Semih\\Desktop\\Projeler\\banka-web-uygulamasi\\DenemeApi\\DenemeApi.Entities\\DenemeApi.Entities.csproj",
+        "projectName": "DenemeApi.Entities",
+        "projectPath": "C:\\Users\\Semih\\Desktop\\Projeler\\banka-web-uygulamasi\\DenemeApi\\DenemeApi.Entities\\DenemeApi.Entities.csproj",
+        "packagesPath": "C:\\Users\\Semih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Semih\\Desktop\\Projeler\\banka-web-uygulamasi\\DenemeApi\\DenemeApi.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Semih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
